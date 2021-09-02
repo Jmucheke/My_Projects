@@ -1,0 +1,88 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+  background: pink;
+}
+/*from a min-width of 700px and bigger use purple*/
+@media (min-width: 700px) and (orientation: landscape) {
+  body {
+    background: #3e4a75;
+  }
+}
+/*from a min-width of 900px and bigger use purple*/
+@media (min-width: 900px) {
+  body {
+    background: orange;
+  }
+}
+/*from a min-width of 1500px and bigger use purple*/
+@media (min-width: 1200px) {
+  body {
+    background: #fff;
+  }
+}
+
+/* Typography */
+h1 {
+  font-size: 3rem;
+  color: #312614;
+  text-align: center;
+}
+
+h1 span {
+  color: #b7832f;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Layout */
+img {
+  max-width: 100%;
+}
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+.col-bg {
+  background: #312614;
+  color: #fff;
+  padding: 1em;
+}
+
+@media (max-width: 700px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
+}

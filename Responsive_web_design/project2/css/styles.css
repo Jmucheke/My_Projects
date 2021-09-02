@@ -1,0 +1,55 @@
+.card {
+  background: #000;
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+h2,
+p {
+  margin-top: 0;
+}
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffe600;
+  color: black;
+  padding: 0.5em 1.25em;
+
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+/*em is relative to the font-align of this element */
+.btn:hover {
+  background: orange;
+}
+
+.btn-big {
+  font-size: 1rem;
+}
+
+.btn-small {
+  font-size: 1rem;
+}
+
+.accent-color {
+  color: #ffe600;
+}
+
+.links {
+  margin-top: 0;
+  margin-bottom: 0;
+}

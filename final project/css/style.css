@@ -1,0 +1,218 @@
+/**
+=header***/
+header{
+	overflow: hidden;
+
+}
+header h1{
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 350px;
+	height: 23px;
+	margin:10px 10px 22px;
+	float: left;
+	padding-bottom: 90px;
+	}
+
+	/*
+*********
+*=others
+**********
+*/ 
+.container_24{
+	margin-top: 10px;
+}
+blockquote{
+	position: relative;
+
+}
+blockquote p{
+	font-size: 15px;
+	line-height: 20px; 
+	font-style: italic;
+	color:#0e0e0e;
+}
+
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+h1, h3{
+	letter-spacing: -1px;
+}
+h3{
+	font-size: 26px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+  a{ 
+	color:#7e7e7e;
+	text-decoration:none; 
+	}
+
+  a:hover, .selected{
+	color: black;
+}
+
+
+.button{
+	background:#242324;
+	padding: 6px;
+	color:white;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.button:hover{
+	background: black;
+	color: white;
+}
+
+/*
+*********
+*=navigation
+**********
+*/ 
+nav{
+	float: right;
+	padding-top: 12px;
+	
+}
+nav li{
+	display:inline;
+	margin-left: 24px;
+}
+
+nav a{
+	text-transform: lowercase;
+}
+
+
+/*****
+=banner
+***
+*/
+.banner{
+	background: url(../img/background.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	clear:both;
+}
+.banner h2{
+	color: white;
+	font-size: 28px;
+	width:450px;
+	font-weight: normal;
+	margin-bottom:-10px;
+	padding:0 8px;
+	background: rgba(0,0,0, .5);
+}
+
+.callout{
+	background: black;
+	height: 231px;
+}
+
+.callout p{
+	color:gray;
+	font-style:italic;
+}
+
+
+
+/*****
+=main
+***
+*/
+
+.main{
+	margin-top: 20px;	
+} 
+.main blockquote p{
+	padding-left: 30px
+
+}
+.main blockquote p:after,
+.main blockquote p:before{
+	font-size: 40px;
+	color:#bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:first-child:before{
+	content: '"';
+	position: absolute;
+	top:5;
+	left:0;
+
+}
+.main blockquote p:last-child:after{
+	content: '"';
+	float: right;
+	position: absolute;
+	bottom: -5px;
+	right:0;
+}
+
+
+/*
+********* 
+*=footer
+**********
+*/ 
+footer{
+	clear: both;
+	border-top: 1px solid #d1d1d1;
+	padding-top: 18px;
+	margin-top: 30px;
+}
+/*
+********* 
+*=Myresume
+**********
+*/ 
+.Mycv{
+	margin-bottom:10px;
+	border:1px solid black;
+
+}
+/*
+********* 
+*=Myresume
+**********
+*/ 
+
+.in_touch label{
+	display: block; 
+	cursor: pointer;
+	color: #292929;
+	font-family: sans-serif;
+	padding-bottom: 8px;
+}
+
+.in_touch textarea{
+	width: 400px;
+	height: 200px;
+}
+.submit{
+	cursor: pointer;
+}
+/*
+********* 
+*=about
+**********
+*/
+.whole{
+	background: url(../img/yes.jpg);
+} 
+
+
+/*
+********* 
+*=contact
+**********
+*/ 
+.contact{
+	background: url(../img/myabout.png);
+}

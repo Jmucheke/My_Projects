@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+#title {
+  text-align: center;
+}
+img {
+  align-content: flex-start;
+}
+#img-caption {
+  clear: both;
+}
+#nav-bar li {
+  display: inline;
+  padding-right: 10px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: #666;
+}
+#nav-bar a:hover {
+  text-decoration: underline;
+  color: red;
+}

@@ -1,24 +1,46 @@
 body {
-  font-family: sans-serif;
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
 }
-#title {
-  text-align: center;
-}
+
 img {
-  align-content: flex-start;
+  width: 100%;
+  object-fit: cover;
 }
-#img-caption {
-  clear: both;
+
+/* Typography */
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #1792d2;
 }
-#nav-bar li {
+
+/* Navigation */
+
+#nav li {
   display: inline;
-  padding-right: 10px;
+  padding-right: 1em;
 }
-#nav-bar a {
+
+a {
   text-decoration: none;
   color: #666;
 }
-#nav-bar a:hover {
+
+a:hover,
+a:focus {
   text-decoration: underline;
-  color: red;
+  color: #143774;
+}
+/* Layout */
+.container {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+pre {
+  width: 100%;
+  display: block;
 }
